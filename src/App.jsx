@@ -5,7 +5,9 @@ import Problem2 from "./components/Problem-2.jsx";
 import Index from "./components/Index.jsx";
 import { store } from "./app/store.js";
 import { Provider } from "react-redux";
-
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
+import "./style.css";
 function App() {
   return (
     <>
